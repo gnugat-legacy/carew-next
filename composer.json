@@ -1,0 +1,22 @@
+{
+    "name": "gnugat/carew-next",
+    "license": "MIT",
+    "type": "library",
+    "description": "Plugin for carew, add next_document and previous_document functions",
+    "keywords": ["carew"],
+    "autoload": { "psr-4": {
+        "Gnugat\\CarewNext\\": "src/"
+    }},
+    "authors": [
+        {
+            "name": "Loïc Chardonnet",
+            "email": "loic.chardonnet@gmail.com",
+            "homepage": "http://gnugat.github.io",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "carew/carew": "~2.0"
+    }
+}
